@@ -1,0 +1,247 @@
+/* General Page Styling   */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Page Containers */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Authentication Pages   */
+.auth-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 100px auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.auth-form button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.auth-form button:hover {
+  background: #0056b3;
+}
+
+/* Redirect Text */
+.redirect-text {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.redirect-text a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.redirect-text a:hover {
+  text-decoration: underline;
+}
+
+/* Dashboard Styling      */
+
+.dashboard-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* Logout Button */
+.logout-button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.logout-button:hover {
+  background: darkred;
+}
+
+/* Upload & Sign Document */
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.upload-container h2 {
+  margin-bottom: 20px;
+}
+
+/* File & Key Input */
+.input-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px; /* Adjusted spacing */
+}
+
+.input-group input[type="file"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f8f9fa;
+  outline: none;
+}
+
+.input-group input::file-selector-button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.input-group input::file-selector-button:hover {
+  background: #0056b3;
+}
+
+/* Text Input */
+.text-input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f8f9fa;
+  outline: none;
+  margin-bottom: 30px;
+}
+
+/* Upload Button */
+.upload-button {
+  width: 100%;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.upload-button:hover {
+  background: #0056b3;
+}
+
+/* Private Key Download   */
+.key-download {
+  background: #ffeeba;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.key-download textarea {
+  background: #fff8dc;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* Document List          */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+ul li {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+/* Document Links */
+a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons (Global)       */
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Admin Dashboard */
+.admin-dashboard-title {
+  margin-bottom: 100px;
+}
+
+/* Fix Spacing on Admin Dashboard */
+.admin-dashboard-container {
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
